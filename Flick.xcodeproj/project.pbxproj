@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F119ADF14B98E060063D1BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F119ADE14B98E060063D1BF /* UIKit.framework */; };
+		8F119AE114B98E060063D1BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F119AE014B98E060063D1BF /* Foundation.framework */; };
+		8F119AE314B98E060063D1BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F119AE214B98E060063D1BF /* CoreGraphics.framework */; };
+		8F119AE914B98E060063D1BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F119AE714B98E060063D1BF /* InfoPlist.strings */; };
+		8F119AEB14B98E060063D1BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F119AEA14B98E060063D1BF /* main.m */; };
+		8F119AEF14B98E060063D1BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F119AEE14B98E060063D1BF /* AppDelegate.m */; };
+		8F119AF214B98E060063D1BF /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F119AF014B98E060063D1BF /* MainStoryboard_iPhone.storyboard */; };
+		8F119AF514B98E070063D1BF /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F119AF314B98E070063D1BF /* MainStoryboard_iPad.storyboard */; };
+		8F119AF814B98E070063D1BF /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F119AF714B98E070063D1BF /* MasterViewController.m */; };
+		8F119AFB14B98E070063D1BF /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F119AFA14B98E070063D1BF /* DetailViewController.m */; };
+		8F119B0314B98E090063D1BF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F119B0214B98E090063D1BF /* SenTestingKit.framework */; };
+		8F119B0414B98E090063D1BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F119ADE14B98E060063D1BF /* UIKit.framework */; };
+		8F119B0514B98E090063D1BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F119AE014B98E060063D1BF /* Foundation.framework */; };
+		8F119B0D14B98E0A0063D1BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F119B0B14B98E0A0063D1BF /* InfoPlist.strings */; };
+		8F119B1014B98E0A0063D1BF /* FlickTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F119B0F14B98E0A0063D1BF /* FlickTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F119B0614B98E090063D1BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F119AD114B98E060063D1BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F119AD914B98E060063D1BF;
+			remoteInfo = Flick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F119ADA14B98E060063D1BF /* Flick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F119ADE14B98E060063D1BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8F119AE014B98E060063D1BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8F119AE214B98E060063D1BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8F119AE614B98E060063D1BF /* Flick-Info.plist */ = {isa = PBXFileReference; path = "Flick-Info.plist"; sourceTree = "<group>"; };
+		8F119AE814B98E060063D1BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F119AEA14B98E060063D1BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F119AEC14B98E060063D1BF /* Flick-Prefix.pch */ = {isa = PBXFileReference; path = "Flick-Prefix.pch"; sourceTree = "<group>"; };
+		8F119AED14B98E060063D1BF /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F119AEE14B98E060063D1BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F119AF114B98E060063D1BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		8F119AF414B98E070063D1BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		8F119AF614B98E070063D1BF /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		8F119AF714B98E070063D1BF /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		8F119AF914B98E070063D1BF /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		8F119AFA14B98E070063D1BF /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		8F119B0114B98E090063D1BF /* FlickTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlickTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F119B0214B98E090063D1BF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8F119B0A14B98E090063D1BF /* FlickTests-Info.plist */ = {isa = PBXFileReference; path = "FlickTests-Info.plist"; sourceTree = "<group>"; };
+		8F119B0C14B98E0A0063D1BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F119B0E14B98E0A0063D1BF /* FlickTests.h */ = {isa = PBXFileReference; path = FlickTests.h; sourceTree = "<group>"; };
+		8F119B0F14B98E0A0063D1BF /* FlickTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlickTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F119AD714B98E060063D1BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F119ADF14B98E060063D1BF /* UIKit.framework in Frameworks */,
+				8F119AE114B98E060063D1BF /* Foundation.framework in Frameworks */,
+				8F119AE314B98E060063D1BF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F119AFD14B98E090063D1BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F119B0314B98E090063D1BF /* SenTestingKit.framework in Frameworks */,
+				8F119B0414B98E090063D1BF /* UIKit.framework in Frameworks */,
+				8F119B0514B98E090063D1BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F119ACF14B98E050063D1BF = {
+			isa = PBXGroup;
+			children = (
+				8F119AE414B98E060063D1BF /* Flick */,
+				8F119B0814B98E090063D1BF /* FlickTests */,
+				8F119ADD14B98E060063D1BF /* Frameworks */,
+				8F119ADB14B98E060063D1BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F119ADB14B98E060063D1BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F119ADA14B98E060063D1BF /* Flick.app */,
+				8F119B0114B98E090063D1BF /* FlickTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F119ADD14B98E060063D1BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F119ADE14B98E060063D1BF /* UIKit.framework */,
+				8F119AE014B98E060063D1BF /* Foundation.framework */,
+				8F119AE214B98E060063D1BF /* CoreGraphics.framework */,
+				8F119B0214B98E090063D1BF /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F119AE414B98E060063D1BF /* Flick */ = {
+			isa = PBXGroup;
+			children = (
+				8F119AED14B98E060063D1BF /* AppDelegate.h */,
+				8F119AEE14B98E060063D1BF /* AppDelegate.m */,
+				8F119AF014B98E060063D1BF /* MainStoryboard_iPhone.storyboard */,
+				8F119AF314B98E070063D1BF /* MainStoryboard_iPad.storyboard */,
+				8F119AF614B98E070063D1BF /* MasterViewController.h */,
+				8F119AF714B98E070063D1BF /* MasterViewController.m */,
+				8F119AF914B98E070063D1BF /* DetailViewController.h */,
+				8F119AFA14B98E070063D1BF /* DetailViewController.m */,
+				8F119AE514B98E060063D1BF /* Supporting Files */,
+			);
+			path = Flick;
+			sourceTree = "<group>";
+		};
+		8F119AE514B98E060063D1BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F119AE614B98E060063D1BF /* Flick-Info.plist */,
+				8F119AE714B98E060063D1BF /* InfoPlist.strings */,
+				8F119AEA14B98E060063D1BF /* main.m */,
+				8F119AEC14B98E060063D1BF /* Flick-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F119B0814B98E090063D1BF /* FlickTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F119B0E14B98E0A0063D1BF /* FlickTests.h */,
+				8F119B0F14B98E0A0063D1BF /* FlickTests.m */,
+				8F119B0914B98E090063D1BF /* Supporting Files */,
+			);
+			path = FlickTests;
+			sourceTree = "<group>";
+		};
+		8F119B0914B98E090063D1BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F119B0A14B98E090063D1BF /* FlickTests-Info.plist */,
+				8F119B0B14B98E0A0063D1BF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F119AD914B98E060063D1BF /* Flick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F119B1314B98E0A0063D1BF /* Build configuration list for PBXNativeTarget "Flick" */;
+			buildPhases = (
+				8F119AD614B98E060063D1BF /* Sources */,
+				8F119AD714B98E060063D1BF /* Frameworks */,
+				8F119AD814B98E060063D1BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flick;
+			productName = Flick;
+			productReference = 8F119ADA14B98E060063D1BF /* Flick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F119B0014B98E090063D1BF /* FlickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F119B1614B98E0A0063D1BF /* Build configuration list for PBXNativeTarget "FlickTests" */;
+			buildPhases = (
+				8F119AFC14B98E090063D1BF /* Sources */,
+				8F119AFD14B98E090063D1BF /* Frameworks */,
+				8F119AFE14B98E090063D1BF /* Resources */,
+				8F119AFF14B98E090063D1BF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F119B0714B98E090063D1BF /* PBXTargetDependency */,
+			);
+			name = FlickTests;
+			productName = FlickTests;
+			productReference = 8F119B0114B98E090063D1BF /* FlickTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F119AD114B98E060063D1BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Student;
+			};
+			buildConfigurationList = 8F119AD414B98E060063D1BF /* Build configuration list for PBXProject "Flick" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8F119ACF14B98E050063D1BF;
+			productRefGroup = 8F119ADB14B98E060063D1BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F119AD914B98E060063D1BF /* Flick */,
+				8F119B0014B98E090063D1BF /* FlickTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F119AD814B98E060063D1BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F119AE914B98E060063D1BF /* InfoPlist.strings in Resources */,
+				8F119AF214B98E060063D1BF /* MainStoryboard_iPhone.storyboard in Resources */,
+				8F119AF514B98E070063D1BF /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F119AFE14B98E090063D1BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F119B0D14B98E0A0063D1BF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8F119AFF14B98E090063D1BF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F119AD614B98E060063D1BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F119AEB14B98E060063D1BF /* main.m in Sources */,
+				8F119AEF14B98E060063D1BF /* AppDelegate.m in Sources */,
+				8F119AF814B98E070063D1BF /* MasterViewController.m in Sources */,
+				8F119AFB14B98E070063D1BF /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F119AFC14B98E090063D1BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F119B1014B98E0A0063D1BF /* FlickTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F119B0714B98E090063D1BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F119AD914B98E060063D1BF /* Flick */;
+			targetProxy = 8F119B0614B98E090063D1BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F119AE714B98E060063D1BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F119AE814B98E060063D1BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8F119AF014B98E060063D1BF /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F119AF114B98E060063D1BF /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8F119AF314B98E070063D1BF /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F119AF414B98E070063D1BF /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		8F119B0B14B98E0A0063D1BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F119B0C14B98E0A0063D1BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F119B1114B98E0A0063D1BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F119B1214B98E0A0063D1BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F119B1414B98E0A0063D1BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flick/Flick-Prefix.pch";
+				INFOPLIST_FILE = "Flick/Flick-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8F119B1514B98E0A0063D1BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flick/Flick-Prefix.pch";
+				INFOPLIST_FILE = "Flick/Flick-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8F119B1714B98E0A0063D1BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Flick.app/Flick";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flick/Flick-Prefix.pch";
+				INFOPLIST_FILE = "FlickTests/FlickTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8F119B1814B98E0A0063D1BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Flick.app/Flick";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flick/Flick-Prefix.pch";
+				INFOPLIST_FILE = "FlickTests/FlickTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F119AD414B98E060063D1BF /* Build configuration list for PBXProject "Flick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F119B1114B98E0A0063D1BF /* Debug */,
+				8F119B1214B98E0A0063D1BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F119B1314B98E0A0063D1BF /* Build configuration list for PBXNativeTarget "Flick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F119B1414B98E0A0063D1BF /* Debug */,
+				8F119B1514B98E0A0063D1BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F119B1614B98E0A0063D1BF /* Build configuration list for PBXNativeTarget "FlickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F119B1714B98E0A0063D1BF /* Debug */,
+				8F119B1814B98E0A0063D1BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F119AD114B98E060063D1BF /* Project object */;
+}
